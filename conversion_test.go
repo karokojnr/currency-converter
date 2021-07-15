@@ -15,11 +15,6 @@ func TestConversion(t *testing.T) {
 		{14, "KSH", "NGN", 53.34},
 		{154, "GHS", "KSH", 2807.42},
 		{201, "NGN", "GHS", 2.81},
-		{5, "GHS", "GHS", 5.00},
-		{5, "GHS", "GHS", 0.00},
-		{-200, "KSH", "GHS", 0.00},
-		{-100, "", "GHS", 5.00},
-		{0, "GHS", "", 5.00},
 	}
 
 	for _, conversionTable := range conversionTables {
