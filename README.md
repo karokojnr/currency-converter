@@ -11,7 +11,7 @@ anyone to any other.
 
    ```sh
 
-   git clone https://github.com/karokojnr/go-currency-converter
+   git clone https://github.com/karokojnr/currency-converter
 
    ```
 
